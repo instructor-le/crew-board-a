@@ -24,7 +24,8 @@ class CrewMember:
     #  Keep it inside the class.
     #  Line it up with show_skill above.
     # ========================================================
-
+    def dream_project_krow(self):
+        print(f"{self.name} wants to build a sneaker resale app.")
     # ========================================================
     #  ADD YOUR METHOD ABOVE THIS LINE
     # ========================================================
@@ -47,7 +48,10 @@ if __name__ == "__main__":
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL BELOW THIS LINE
     # ========================================================
-
+    krow = CrewMember("Krow", "Oakland", "learning classes")
+    krow.introduce()
+    krow.dream_project_krow()
+    print()
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL ABOVE THIS LINE
     # ========================================================
