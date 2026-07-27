@@ -21,6 +21,9 @@ class CrewMember:
 
     # ========================================================
     #  ADD YOUR METHOD BELOW THIS LINE
+    #What I want to build
+    def dream_project_qiansen(self):
+        print(f"{self.name} wants to make a game.")
     #  Keep it inside the class.
     #  Line it up with show_skill above.
     # ========================================================
@@ -47,7 +50,10 @@ if __name__ == "__main__":
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL BELOW THIS LINE
     # ========================================================
-
+    qiansen = CrewMember("Qiansen", "Oakland", "learning classes")
+    qiansen.introduce()
+    qiansen.dream_project_qiansen()
+    print()
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL ABOVE THIS LINE
     # ========================================================
