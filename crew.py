@@ -21,14 +21,12 @@ class CrewMember:
 
     # ========================================================
     #  ADD YOUR METHOD BELOW THIS LINE
+    # Says what I want to build after this program
+    def future_career_elshaddai(self):
+        print(f"{self.name} wants to become a Physician Asistant.")
     #  Keep it inside the class.
     #  Line it up with show_skill above.
     # ========================================================
-    def dream_project_eusi(self):
-        print(f"{self.name} wants to build a soil data app")
-    
-    def dream_project_maya(self):
-        print(f"{self.name} wants to build a sneaker resale app.")
 
     # ========================================================
     #  ADD YOUR METHOD ABOVE THIS LINE
@@ -51,15 +49,13 @@ if __name__ == "__main__":
 
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL BELOW THIS LINE
-    # ========================================================
-    eusi = CrewMember("Eusi", "Oakland", "playing piano")
-    eusi.introduce()
-    eusi.show_skill()
-    
-    maya = CrewMember("Maya", "Richmond", "learning classes")
-    maya.introduce()
-    maya.dream_project_maya()
+    elshaddai = CrewMember("Elshaddai", "Pinole", "learning classes")
+    elshaddai.introduce
+    elshaddai.future_career_elshaddai()
+
     print()
+    # ========================================================
+
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL ABOVE THIS LINE
     # ========================================================
