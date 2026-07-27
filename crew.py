@@ -24,6 +24,9 @@ class CrewMember:
     #  Keep it inside the class.
     #  Line it up with show_skill above.
     # ========================================================
+    
+    def dream_project_maya(self):
+        print(f"{self.name} wants to build a sneaker resale app.")
 
     # ========================================================
     #  ADD YOUR METHOD ABOVE THIS LINE
@@ -47,7 +50,10 @@ if __name__ == "__main__":
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL BELOW THIS LINE
     # ========================================================
-
+    maya = CrewMember("Maya", "Richmond", "learning classes")
+    maya.introduce()
+    maya.dream_project_maya()
+    print()
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL ABOVE THIS LINE
     # ========================================================
