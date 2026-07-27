@@ -27,7 +27,9 @@ class CrewMember:
     #  Keep it inside the class.
     #  Line it up with show_skill above.
     # ========================================================
-
+    #im building a garden shop
+    def dream_project_queenmairice(self):
+        print(f"{self.name} wants to build a gardening shop app.")
     # ========================================================
     #  ADD YOUR METHOD ABOVE THIS LINE
     # ========================================================
@@ -55,6 +57,10 @@ if __name__ == "__main__":
 
     print()
     # ========================================================
+    queenmairice = CrewMember("queenmairice", "oakland", "gardening shop")
+    queenmairice.introduce()   
+    queenmairice.dream_project_queenmairice()
+    print()
 
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL ABOVE THIS LINE
