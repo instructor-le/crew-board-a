@@ -31,7 +31,8 @@ class CrewMember:
     # ========================================================
     #  ADD YOUR METHOD ABOVE THIS LINE
     # ========================================================
-
+    def dream_project_edgar(self):
+        print(f"{self.name} wants to build a Resume Keyword Scanner")
 
 # ============================================================
 #  THE FRONT DOOR
@@ -45,6 +46,11 @@ if __name__ == "__main__":
     jordan = CrewMember("Jordan", "Oakland", "teaching Python")
     jordan.introduce()
     jordan.show_skill()
+    print()
+
+    edgar = CrewMember("Edgar", "Hayward", "learning python") 
+    edgar.introduce()
+    edgar.dream_project_edgar()
     print()
 
     # ========================================================
