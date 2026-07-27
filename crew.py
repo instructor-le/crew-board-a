@@ -24,7 +24,8 @@ class CrewMember:
     #  Keep it inside the class.
     #  Line it up with show_skill above.
     # ========================================================
-
+    def dream_project_eusi(self):
+        print(f"{self.name} wants to build a soil data app")
     # ========================================================
     #  ADD YOUR METHOD ABOVE THIS LINE
     # ========================================================
@@ -47,7 +48,10 @@ if __name__ == "__main__":
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL BELOW THIS LINE
     # ========================================================
-
+    eusi = CrewMember("Eusi", "Oakland", "playing piano")
+    eusi.introduce()
+    eusi.show_skill()
+    
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL ABOVE THIS LINE
     # ========================================================
