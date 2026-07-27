@@ -26,6 +26,10 @@ class CrewMember:
     # ========================================================
     def dream_project_eusi(self):
         print(f"{self.name} wants to build a soil data app")
+    
+    def dream_project_maya(self):
+        print(f"{self.name} wants to build a sneaker resale app.")
+
     # ========================================================
     #  ADD YOUR METHOD ABOVE THIS LINE
     # ========================================================
@@ -52,6 +56,10 @@ if __name__ == "__main__":
     eusi.introduce()
     eusi.show_skill()
     
+    maya = CrewMember("Maya", "Richmond", "learning classes")
+    maya.introduce()
+    maya.dream_project_maya()
+    print()
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL ABOVE THIS LINE
     # ========================================================
