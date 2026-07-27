@@ -24,7 +24,10 @@ class CrewMember:
     #  Keep it inside the class.
     #  Line it up with show_skill above.
     # ========================================================
-
+    def project_jia(self):
+        print(f"Hi, I'm {self.name} from {self.city}.")
+    def show_skill(self):
+        print(f"{self.name} can {self.skill}.")
     # ========================================================
     #  ADD YOUR METHOD ABOVE THIS LINE
     # ========================================================
@@ -47,7 +50,11 @@ if __name__ == "__main__":
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL BELOW THIS LINE
     # ========================================================
-
+    jia = CrewMember("Jia", "Oakland", "bake")
+    jia.introduce
+    jia.project_jia()
+    jia.show_skill()
+    print()
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL ABOVE THIS LINE
     # ========================================================
