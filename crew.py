@@ -21,10 +21,12 @@ class CrewMember:
 
     # ========================================================
     #  ADD YOUR METHOD BELOW THIS LINE
+    
     #  Keep it inside the class.
     #  Line it up with show_skill above.
     # ========================================================
-
+    def dream_project_fredi(self):
+        print(f"{self.name} wants to hack the govoerment.")
     # ========================================================
     #  ADD YOUR METHOD ABOVE THIS LINE
     # ========================================================
@@ -47,7 +49,10 @@ if __name__ == "__main__":
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL BELOW THIS LINE
     # ========================================================
-
+    fredi = CrewMember("Fredi", "Oakland", "want to hack the goverment")
+    fredi.introduce()
+    fredi.dream_project_fredi()
+    print()
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL ABOVE THIS LINE
     # ========================================================
