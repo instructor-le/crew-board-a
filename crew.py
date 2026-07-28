@@ -25,6 +25,12 @@ class CrewMember:
     #  Line it up with show_skill above.
     # ========================================================
 
+    def share_goal(self):
+        print(f"{self.name} is excited to keep learning and building.")
+
+    def dream_project_sasha(self):
+        print(f"{self.name} dreams of working on a project that helps the community.")
+
     # ========================================================
     #  ADD YOUR METHOD ABOVE THIS LINE
     # ========================================================
@@ -47,6 +53,13 @@ if __name__ == "__main__":
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL BELOW THIS LINE
     # ========================================================
+
+    sasha = CrewMember("Sasha", "Bay Area", "learning Python")
+    sasha.introduce()
+    sasha.show_skill()
+    sasha.share_goal()
+    sasha.dream_project_sasha()
+    print()
 
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL ABOVE THIS LINE
