@@ -26,7 +26,7 @@ class CrewMember:
     #  Line it up with show_skill above.
     # ========================================================
     def dream_project_fredi(self):
-        print(f"{self.name} wants to hack the govoerment.")
+        print(f"{self.name} Is hacking the government.")
     # ========================================================
     #  ADD YOUR METHOD ABOVE THIS LINE
     # ========================================================
@@ -49,7 +49,7 @@ if __name__ == "__main__":
     # ========================================================
     #  ADD YOUR OBJECT AND YOUR METHOD CALL BELOW THIS LINE
     # ========================================================
-    fredi = CrewMember("Fredi", "Oakland", "want to hack the goverment")
+    fredi = CrewMember("Fredi", "Oakland", "Is hacking the goverment")
     fredi.introduce()
     fredi.dream_project_fredi()
     print()
